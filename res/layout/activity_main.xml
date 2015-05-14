@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/fragement_main"
+        android:name="com.gwb.xiaomo.FragmentChat"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/fragement_search"
+        android:name="com.gwb.xiaomo.FragmentStudent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" />
+
+    <fragment
+        android:id="@+id/fragement_setting"
+        android:name="com.gwb.xiaomo.FragmentMore"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="10" />
+
+    <RadioGroup
+        android:id="@+id/bottomRg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:background="@drawable/maintab_toolbar_bg"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbOne"
+            style="@style/main_tab_bottom"
+            android:checked="true"
+            android:drawableTop="@drawable/icon_tab_chat"
+            android:text="@string/chat" />
+
+        <RadioButton
+            android:id="@+id/rbTwo"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_tab_teach"
+            android:text="@string/student" />
+
+        <RadioButton
+            android:id="@+id/rbThree"
+            style="@style/main_tab_bottom"
+            android:drawableTop="@drawable/icon_tab_more"
+            android:text="@string/more" />
+    </RadioGroup>
+
+</LinearLayout>

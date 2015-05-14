@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title" />
+
+    <RelativeLayout
+        android:id="@+id/rl_send"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/send_chat" >
+
+        <Button
+            android:id="@+id/btn_send"
+            style="@android:style/Widget.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/ed_send_message"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:text="@string/send_message" />
+
+        <EditText
+            android:id="@+id/ed_send_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/btn_send"
+            android:background="@drawable/login_edit_normal"
+            android:hint="请输入信息"
+            android:maxLines="5"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_message"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/rl_send"
+        android:layout_below="@id/title_bar"
+        android:background="@drawable/chat_backgroud1"
+        android:divider="@null"
+        android:dividerHeight="5dp"
+        android:listSelector="@drawable/timer_list_selector"
+        android:transcriptMode="normal" >
+    </ListView>
+
+</RelativeLayout>

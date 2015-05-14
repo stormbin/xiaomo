@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小莫米聊</string>
+    <string name="action_settings">Settings</string>
+    <string name="xiaomo">小莫</string>
+    <string name="send_message">发送</string>
+    <string name="user_name">我</string>
+    <string name="chat">聊天</string>
+    <string name="student">学习</string>
+    <string name="more">更多</string>
+    <string name="theme">主题</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+
+    <!-- about -->
+    <string name="theme_style1">靛蓝主题</string>
+    <string name="theme_style2">经典主题</string>
+    <string name="theme_style3">灰色主题</string>
+    <string name="theme_style4">粉色主题</string>
+    <string name="theme_apply">应用</string>
+
+    <!-- setting -->
+    <string name="clean">清空缓存</string>
+    <string name="feedback">意见反馈</string>
+    <string name="version">检查新版本</string>
+    <string name="version_info_left">版本信息</string>
+    <string name="version_info_right">1.0</string>
+    <string name="version_result">当前已是最新版本</string>
+    <string name="tv_functions"></string>
+
+    <!-- about -->
+    <string name="text1">● 预祝第三届APP大赛圆满成功</string>
+    <string name="text2_left">1、参赛学院：</string>
+    <string name="text2_right">计算机与信息学院</string>
+    <string name="text3_left">2、参赛作品：</string>
+    <string name="text3_right">小莫米聊</string>
+    <string name="text4_left">3、团队成员：</string>
+    <string name="text4_right">郭伟彬、吴雄峰</string>
+
+</resources>
