@@ -28,6 +28,7 @@ public class MainActivity extends FragmentActivity {
 	private RadioButton rbOne, rbTwo, rbThree;
 	private static InputMethodManager imm;
 	private MoreSetting moreSetting;
+	private int i;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
